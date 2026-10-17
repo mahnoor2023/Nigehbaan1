@@ -1,0 +1,7 @@
+[
+  { "id": "malir",    "label": "Malir (Cantt side)",       "bbox": [24.928, 67.175, 24.972, 67.225], "wealth": 0.20,  "note": "Existing sample (real OSM buildings, SRTM height)" },
+  { "id": "quaidabad","label": "Quaidabad / Malir River",  "bbox": [24.855, 67.190, 24.885, 67.220], "wealth": -0.10, "note": "Riverside, low-income" },
+  { "id": "korangi",  "label": "Korangi",                  "bbox": [24.830, 67.100, 24.860, 67.140], "wealth": -0.05, "note": "Low-lying, coastal" },
+  { "id": "lyari",    "label": "Lyari",                    "bbox": [24.845, 66.985, 24.875, 67.015], "wealth": -0.15, "note": "Dense, nala-side" },
+  { "id": "orangi",   "label": "Orangi Town",              "bbox": [24.935, 66.975, 24.965, 67.005], "wealth": -0.20, "note": "Dense informal settlement" }
+]
