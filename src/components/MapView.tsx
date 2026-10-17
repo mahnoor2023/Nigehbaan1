@@ -52,8 +52,8 @@ export default function MapView({ area, scored, shelters, resources, plan, showP
   return (
     <MapContainer key={area.id} center={area.center} zoom={area.zoom} scrollWheelZoom className="h-full w-full">
       <TileLayer
-        attribution="&copy; OpenStreetMap contributors &copy; CARTO"
-        url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png"
+        attribution="&copy; OpenStreetMap contributors"
+        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
       />
       <FlyTo lat={sel?.h.lat ?? null} lon={sel?.h.lon ?? null} />
 
